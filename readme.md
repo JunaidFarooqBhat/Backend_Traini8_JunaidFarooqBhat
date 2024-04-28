@@ -24,7 +24,7 @@ You can test these APIs using Swagger or Postman.
 
 ### Swagger
 Swagger is integrated into the project for easy API testing. Access the Swagger UI by navigating to `http://localhost:8080/swagger-ui/index.html#/` after starting the application.
-[Swagger UI](https://drive.google.com/uc?export=download&id=1eDuv3f_3leYeE0K6nPjSgWbWCm2QEBsz)
+![Swagger UI](https://drive.google.com/uc?export=download&id=1eDuv3f_3leYeE0K6nPjSgWbWCm2QEBsz)
 
 ### Postman
 You can also use Postman for testing the APIs. Use the provided endpoints and send requests with appropriate JSON data for creating training centers or retrieving training centers with optional filters.

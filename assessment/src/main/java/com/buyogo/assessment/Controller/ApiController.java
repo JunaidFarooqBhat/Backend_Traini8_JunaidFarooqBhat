@@ -23,9 +23,9 @@ public class ApiController {
      @Autowired
     TraningCenterService traningCenterService;
 
-     // This api is to create the new traning center.
+     // This api is to create the new training center.
     //it validates the all properties if validation fails it will throw exception
-    @PostMapping("traningcenter")
+    @PostMapping("trainingcenter")
     public ResponseEntity<TraningCenter> createNewTraningCenter
     (@Valid @RequestBody TraningCenter newTraningCenter, BindingResult bindingResult){
         try{
